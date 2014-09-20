@@ -1,0 +1,19 @@
+{
+    "name": "hasscms/support",
+    "description": "support",
+    "authors": [
+        {
+            "name": "zhepama",
+            "email": "zhepama@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+      "psr-4": {
+            "hasscms\\support\\": ""
+        }
+    },
+    "minimum-stability": "stable"
+}
