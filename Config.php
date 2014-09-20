@@ -1,10 +1,10 @@
 <?php
 /**
- * Zend Framework (http://framework.zend.com/)
+ * HassCMS (http://www.hassium.org/)
  *
- * @link      http://github.com/zendframework/zf2 for the canonical source repository
- * @copyright Copyright (c) 2005-2014 Zend Technologies USA Inc. (http://www.zend.com)
- * @license   http://framework.zend.com/license/new-bsd New BSD License
+ * @link      http://github.com/hasscms for the canonical source repository
+ * @copyright Copyright (c) 2014-2099  Hassium  Software LLC.
+ * @license   http://www.hassium.org/license/new-bsd New BSD License
  */
 
 namespace hasscms\support;
@@ -13,13 +13,13 @@ use ArrayAccess;
 use Countable;
 use Iterator;
 
+
 /**
- * Provides a property based interface to an array.
- * The data are read-only unless $allowModifications is set to true
- * on construction.
  *
- * Implements Countable, Iterator and ArrayAccess
- * to facilitate easy access to the data.
+ *
+ * @author zhepama <zhepama@gmail.com>
+ * @date 2014-9-20 下午11:21:47
+ * @since 1.0
  */
 class Config implements Countable, Iterator, ArrayAccess
 {
